@@ -1,24 +1,44 @@
-# README
+# Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Install
 
-Things you may want to cover:
+### Clone the repository
 
-* Ruby version
+```shell
+https://github.com/rubensr91/rorblog.git
+cd project
+```
 
-* System dependencies
+### Check your Ruby version
 
-* Configuration
+```shell
+ruby -v
+```
 
-* Database creation
+The ouput should start with something like `ruby 2.7.0`
 
-* Database initialization
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
 
-* How to run the test suite
+```shell
+rbenv install 2.7.0
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install dependencies
 
-* Deployment instructions
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
 
-* ...
+```shell
+bundle && yarn
+```
+
+### Initialize the database
+
+```shell
+rails db:create db:migrate db:seed
+```
+
+## Serve
+
+```shell
+rails s
+```
