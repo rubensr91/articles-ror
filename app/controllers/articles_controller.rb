@@ -16,7 +16,8 @@ class ArticlesController < ApplicationController
 
     def create
         @article = Article.create(title: params[:article][:title], content: params[:article][:content])
-        render json: @article
+        
+        redirect_to root_path
     end
 
     def show

@@ -1,17 +1,19 @@
-<%= form_with(model: @article, local: true) do |form| %>
+<div class="container">
+    <%=form_with(model: @article, local: true) do |form|%>
 
-    <div>
-        <%= form.label :title %>
-        <%= form.text_field :title %>
-    </div>
+        <div>
+            <%=form.label :title%>
+            <%=form.text_field :title%>
+        </div>
 
-    <div>
-        <%= form.label :content %>
-        <%= form.rich_text_area :content %>
-    </div>
+        <div>
+            <%=form.label :content%>
+            <%=form.rich_text_area :content%>
+        </div>
 
-    <div>
-        <%= form.submit %>
-    </div>
+        <div>
+            <%=form.submit%> <%=link_to "Back to index", "/"%>
+        </div>
 
-<%end%>
+    <%end%>
+</div>

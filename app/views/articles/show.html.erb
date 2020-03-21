@@ -1,12 +1,11 @@
 <div class="container">
-    <h1 class="text-uppercase">
-        <%= @article.title %>
-    </h1>
-    <div class="container">
-        <%= @article.content %>
-        <div>
-            <%= link_to "Delete", @article, method: :delete %>
-            <%= link_to "Edit", "#{@article.id}/edit" %>
-        </div>
+    <h3>
+        <%=@article.title%>
+    </h3>
+    <%=@article.content%>
+    <div>
+        <%=link_to "Delete", @article, method: :delete%>
+        <%=link_to "Edit", "#{@article.id}/edit"%>
     </div>
+    <%=link_to "Back to index", "/"%>
 </div>
