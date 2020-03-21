@@ -6,7 +6,7 @@
 
 ```shell
 https://github.com/rubensr91/rorblog.git
-cd project
+cd rorblog
 ```
 
 ### Check your Ruby version
