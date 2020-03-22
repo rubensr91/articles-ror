@@ -5,8 +5,8 @@
 ### Clone the repository
 
 ```shell
-https://github.com/rubensr91/rorblog.git
-cd rorblog
+https://github.com/rubensr91/articles-ror.git
+cd articles-ror
 ```
 
 ### Check your Ruby version
