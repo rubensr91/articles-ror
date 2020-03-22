@@ -1,13 +1,7 @@
+<%=render "partials/nav"%>
+
 <div class="container">
     <h3>My articles</h3>
 
-    <% @articles.each do |article|%>
-        <div class="container">
-            <div>
-                <h5><%=link_to "#{article.title}", "articles/#{article.id}"%></h5>
-            </div>
-        </div>
-    <%end%>
-
-    <h5><%=link_to "Create new", "articles/new"%></h5>
+    <%=render @articles%>
 </div>
