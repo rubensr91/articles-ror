@@ -1,5 +1,7 @@
 # Project
 
+CRUB make in Ruby on Rails
+
 ## Install
 
 ### Clone the repository
