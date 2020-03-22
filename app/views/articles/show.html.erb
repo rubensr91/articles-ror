@@ -1,10 +1,12 @@
-<div class="container">
+<div class="jumbotron">
     <h3>
-        <%=@article.title%>
+        <%= @article.title %>
     </h3>
-    <%=@article.content%>
+    <p>
+        <%= @article.content %>
+    </p>
     <div>
-        <%=link_to "Delete", @article, method: :delete%>
-        <%=link_to "Edit", "#{@article.id}/edit"%>
+        <p><%= link_to "Delete", @article, method: :delete %>
+        <%= link_to "Edit", "#{@article.id}/edit" %></p>
     </div>
 </div>

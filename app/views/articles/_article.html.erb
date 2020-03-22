@@ -1,7 +1,11 @@
-<div class="container">
-    <div>
-        <h3><%=article.title%></h3>
-        <p><%=article.content%></p>
-        <p><%=link_to "Show more", article%></p>
-    </div>
+<div class="jumbotron">
+    <h3 class="p-jumbotron">
+        <%= article.title %>
+    </h3>
+    <h5 class="p-jumbotron">
+        <%= article.content %>
+    </h5>
+    <p class="p-jumbotron">
+        <%= link_to "Show more", article %>
+    </p>
 </div>

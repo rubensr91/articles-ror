@@ -1,8 +1,10 @@
-<nav class="nav bg-light">
-    <li class="nav-item">
-        <%=link_to "Index", root_path, class: "nav-link"%>
-    </li>
-    <li class="nav-item">
-        <%=link_to "New article", new_articles_path, class: "nav-link"%>
-    </li>
+<nav class="navbar navbar-expand-md navbar-dark">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <%= link_to "Index", root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+            <%= link_to "New article", new_articles_path, class: "nav-link" %>
+        </li>
+    </ul>
 </nav>

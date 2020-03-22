@@ -1,4 +1,6 @@
-<div class="container">
-    <h3><%=@article.title%></h3>
+<div class="jumbotron">
+    <div class="container">
+        <h3><%= @article.title %></h3>
+        <%= render "articles/form" %>
+    </div>
 </div>
-<%=render "articles/form"%>
