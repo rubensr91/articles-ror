@@ -15,27 +15,25 @@ class ArticlesController < ApplicationController
     end
 
     def create
-        @article = Article.create(title: params[:article][:title], content: params[:article][:content])
+        @article = Article.create(article_params)
         
-        redirect_to root_path
-    end
-
-    def show
-    end
-
-    def edit
+        redirect_to @article
     end
 
     def update
-        @article.update(title: params[:article][:title], content: params[:article][:content])
+        @article.update(article_params)
 
-        redirect_to root_path
+        redirect_to @article
     end
 
     def destroy
         @article.destroy
 
         redirect_to root_path
+    end
+
+    def article_params
+        params.require(:article).permit(:title, :content)
     end
     
 end
