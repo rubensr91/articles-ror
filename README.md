@@ -9,6 +9,7 @@ CRUD Ruby on Rails
 ```shell
 https://github.com/rubensr91/articles-ror.git
 cd articles-ror
+yarn install --check-files
 ```
 
 ### Check your Ruby version
