@@ -1,6 +1,7 @@
 # Project
 
-CRUD Ruby on Rails
+This is a simple CRUD created in Ruby on Rails.
+You can create, edit, delete, remove and show, for example, articles.
 
 ### Clone the repository
 
