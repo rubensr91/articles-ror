@@ -2,14 +2,11 @@
 
 CRUD Ruby on Rails
 
-## Install
-
 ### Clone the repository
 
 ```shell
 https://github.com/rubensr91/articles-ror.git
-cd articles-ror
-yarn install --check-files
+
 ```
 
 ### Check your Ruby version
