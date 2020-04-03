@@ -1,6 +1,6 @@
 # Project
 
-CRUB make in Ruby on Rails
+CRUD Ruby on Rails
 
 ## Install
 
