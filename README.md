@@ -6,7 +6,7 @@ You can create, edit, delete, remove and show, for example, articles.
 ### Clone the repository
 
 ```shell
-https://github.com/rubensr91/articles-ror.git
+https://github.com/rubensr91/crud.git
 
 ```
 
